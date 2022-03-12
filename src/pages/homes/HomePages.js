@@ -1,18 +1,23 @@
 import React from 'react';
-import { Container,Row, Col} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import CaraouselComponents from '../../components/homes/carousels/CarouselComponents';
+import ListFilmComponent from '../../components/homes/lists/ListFilmComponents';
 
-
-const HomePages = () => {
+function HomePages() {
   return (
-    <Container>
+    <Container className="mb-5">
       <Row>
         <Col>
-          <CaraouselComponents/> 
+          <CaraouselComponents />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <ListFilmComponent />
         </Col>
       </Row>
     </Container>
-  ); 
-};
+  );
+}
 
 export default HomePages;

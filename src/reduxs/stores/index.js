@@ -1,5 +1,5 @@
-import {createStore} from 'redux';
-import {persistStore, persistReducer} from 'redux-persist';
+import { createStore } from 'redux';
+import { persistStore, persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 
 // reducers
@@ -7,7 +7,7 @@ import reducers from '../reducers';
 
 const persistConfig = {
   key: 'root',
-  storage: storage,
+  storage,
   // blacklist : ['modalState'],
   // whitelist : ['asd']
 };
