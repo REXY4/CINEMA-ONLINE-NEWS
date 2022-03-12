@@ -14,3 +14,17 @@ color: #FFFFFF;
     font-size: 18px;
     color: #CD2E71;
 }
+
+#button-buy{
+    width: 100px;
+height: 40px;
+background: #CD2E71;
+border-radius: 5px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+letter-spacing: 1px;
+line-height: 19px;
+text-align: center;
+}

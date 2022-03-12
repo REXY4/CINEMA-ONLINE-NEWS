@@ -1,15 +1,16 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import NavbarComponents from './components/navbars/NavbarComponents';
 import HandleRoute from './routes';
-import {BrowserRouter as Router} from 'react-router-dom';
-
 
 function App() {
   return (
-    <Router>
-      <NavbarComponents/>
-      <HandleRoute/>
-    </Router>
+    <BrowserRouter>
+      <NavbarComponents />
+      <div className="mt-4">
+        <HandleRoute />
+      </div>
+    </BrowserRouter>
   );
 }
 

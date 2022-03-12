@@ -1,20 +1,14 @@
 import React from 'react';
-import { Switch } from 'react-router-dom';
-import {Routes, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+
 import HomePages from '../pages/homes/HomePages';
 
-const HandleRoute = () => {
+function HandleRoute() {
   return (
-    <>
-      <Switch>
-        <Route exact path="/" component={HomePages}/>
-      </Switch>
-    </>
+    <Routes>
+      <Route path="/" element={<HomePages />} />
+    </Routes>
   );
-};
-
-
-
-
+}
 
 export default HandleRoute;
