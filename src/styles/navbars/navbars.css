@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+#button-register{
+    width: 100px;
+    background: #CD2E71;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#button-login{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    padding-right: 50px;
+}
+
+#button-login:hover{
+    color: #e8e8e8ba;
+}
